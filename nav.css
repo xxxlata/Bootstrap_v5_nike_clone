@@ -266,18 +266,13 @@ nav{
     color: black;
 }
 
-@media screen and (max-width:1437px)  {
-    #nav-heart{
-        display: none;
-    }
-
-    #nav-bag{
-        padding-left: 1rem;
-    }
-}
 
 @media screen and (max-width: 1150px) {
     #nav-bag{
+        display: none;
+    }
+
+    #nav-heart{
         display: none;
     }
 }
