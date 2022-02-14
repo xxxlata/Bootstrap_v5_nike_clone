@@ -1,0 +1,70 @@
+.slide {
+    position: relative;
+    margin: 0 0.5rem;
+}
+
+.cover{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 500;
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+#slide1:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide1:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide2:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide3:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide4:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide5:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide6:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide7:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide8:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+#slide9:hover .cover{
+    display: block;
+    cursor: pointer;
+}
+.slide img:hover{
+    cursor: pointer;
+}
+
+.caption{
+    margin: 1rem 0;
+}
+
+.caption dd{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+
+

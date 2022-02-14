@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#top-nav{
+    background-color: #f5f5f5;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+#top-nav li{
+    font-size: 12px;
+    padding: 0.3rem;
+}
+
+#top-nav a {
+    color: black;
+}
+
+#top-nav a:hover {
+    color: gray;
+}
+
+#top-nav-border{
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+nav{
+    padding: 0.5rem 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+}   
+
+#nike-logo img{
+    width: 4rem;
+    height: auto;
+}
+
+#nav-menu li{
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#nav-menu li:last-child{
+    color: red;
+}
+
+#nav-menu li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+#nav-menu li:hover .background{
+    background-color:rgba(0, 0, 0, 0.678);
+    position: absolute;
+    top: 4.7rem;
+    left: 0.7rem;
+    width: 100%;
+    height: 87vh;
+    z-index: 500;
+}
+
+.background:hover {
+    display: none;
+}
+
+#nav-menu-new:hover #new-nav-bar{
+    display: flex;
+}
+#nav-menu-men:hover #men-nav-bar{
+    display: flex;
+}
+#nav-menu-women:hover #women-nav-bar{
+    display: flex;
+}
+#nav-menu-kids:hover #kids-nav-bar{
+    display: flex;
+}
+#nav-menu-sale:hover #sale-nav-bar{
+    display: flex;
+}
+
+#new-nav-bar{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+#men-nav-bar{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+#women-nav-bar{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#kids-nav-bar{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#sale-nav-bar{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 4.3rem;
+    left: 0.7rem;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#new-nav-bar > div{
+    margin: 0 3rem;
+}
+#men-nav-bar > div{
+    margin: 0 3rem;
+}
+#women-nav-bar > div{
+    margin: 0 3rem;
+}
+#kids-nav-bar > div{
+    margin: 0 3rem;
+}
+#sale-nav-bar > div{
+    margin: 0 3rem;
+}
+
+#search-box {
+    background-color: #f5f5f5;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 50px;
+}
+
+#search-box button{
+    border-radius: 50px;
+    border: none;
+    width: 20%;
+    height: 100%;
+}
+
+#search-box input{
+    width: 70%;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+#search-box:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+#search-box:hover input {
+    background-color: rgb(224, 224, 224);
+}
+#search-box:hover button {
+    background-color: rgb(224, 224, 224);
+}
+
+#nav-heart{
+    margin: 0 1rem;
+}
+
+#nav-heart a{
+    color: black;
+}
+
+#nav-bag a{
+    color: black;
+}
+
+#hidden-nav{
+    display: none;
+}
+
+#hidden-nav-container{
+    width: 100%;
+    height: 2rem;
+}
+
+#hidden-bag{
+    font-size: larger;
+    padding: 0.2rem 0.5rem;
+}
+
+#hidden-search{
+    font-size: larger;
+    padding: 0.2rem 0.5rem;
+}
+
+#hidden-bar{
+    font-size: larger;
+    padding: 0.2rem 0.5rem;
+}
+
+#hidden-search:hover{
+    border-radius: 100px;
+    background-color: rgb(224, 224, 224);
+}
+#hidden-search a:hover{
+    color: black;
+}
+
+#hidden-bar:hover{
+    border-radius: 100px;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+#hidden-bar a:hover{
+    color: black;
+}
+
+#hidden-bag:hover{
+    border-radius: 100px;
+    background-color: rgb(224, 224, 224);
+}
+#hidden-bag a:hover{
+    color: black;
+}
+
+@media screen and (max-width:1437px)  {
+    #nav-heart{
+        display: none;
+    }
+
+    #nav-bag{
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #nav-bag{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1066px) {
+    .default-top-nav{
+        display: none;
+    }
+
+    #hidden-nav{
+        display: flex;
+    }
+
+    #default-nav{
+        display: none;
+    }
+}

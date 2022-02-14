@@ -1,0 +1,147 @@
+.main{
+    padding: 0 3rem;
+}
+.main img{
+    width: 100%;
+    height: auto;
+}
+
+#text-part{
+    padding: 3rem 0 7rem;
+}
+#text-part h1{
+    font-weight: bolder;
+}
+
+#text-part span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btns button{
+    border-radius: 100px;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5% 1%;
+}
+
+.btns button:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.vidio-part span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.vidio-part label{
+    padding-bottom: 1rem;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+#title span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+#two-cut{
+    margin-bottom: 4rem;
+}
+
+#standing-p{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.standing-sub{
+    position: absolute;
+    bottom:2rem;
+    left: 3rem;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#purple-s{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.purple-sub{
+    position: absolute;
+    bottom:2rem;
+    left: 3rem;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+.orange-zone{
+    margin-bottom: 10rem;
+}
+
+#o-picture-one {
+    position: relative;
+}
+#title-one{
+    position: absolute;
+    z-index: 500;
+    bottom: 1rem;
+    left: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+#o-picture-two {
+    position: relative;
+}
+#title-two{
+    position: absolute;
+    z-index: 500;
+    bottom: 1rem;
+    left: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+#o-picture-three {
+    position: relative;
+}
+
+#title-three{
+    position: absolute;
+    z-index: 500;
+    bottom: 1rem;
+    left: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+@media screen and (max-width: 1066px) {
+    .main{
+        padding: 0;
+    }
+}
