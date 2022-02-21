@@ -145,3 +145,11 @@ video{
         padding: 0;
     }
 }
+
+@media screen and (max-width: 1065px){
+
+    #title{
+        margin: 0 1rem;
+    }
+
+}
